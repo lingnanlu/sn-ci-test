@@ -2,6 +2,6 @@
 
 node {
 
-    sh ls -l
+    sh 'ls -l'
     snCI('./deploy/manifest.yml')
 }
