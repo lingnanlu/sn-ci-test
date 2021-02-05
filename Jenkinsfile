@@ -1,7 +1,7 @@
-@Library("sn-ci-test") _
+//@Library("sn-ci-test") _
 
 node {
 
     sh 'ls -l'
-    snCI('./deploy/manifest.yml')
+//    snCI('./deploy/manifest.yml')
 }
