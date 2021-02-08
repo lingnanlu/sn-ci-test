@@ -1,7 +1,7 @@
 build:
   workDir: ./
   cmd:
-    - sh deploy/build.sh
+    - deploy/build.sh
 
 deploy:
   distDir: /usr/local/sugram/open-plat-form
