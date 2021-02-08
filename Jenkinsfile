@@ -1,4 +1,4 @@
-//@Library("sn-ci-test") _
+@Library("sn-ci-test") _
 
 node {
     checkout scm
