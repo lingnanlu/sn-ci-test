@@ -1,1 +1,1 @@
-mvn clean package -U -P$ENV -DskipTests
+mvn clean package -U -DskipTests

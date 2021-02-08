@@ -1,6 +1,6 @@
 @Library("sn-ci-test") _
 
 node {
-    checkout scm
+//    checkout scm
     snCI('./deploy/manifest.yml')
 }
