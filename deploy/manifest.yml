@@ -1,12 +1,12 @@
 build:
-  workDir: ./		# workDir是代码仓库的相对目录
+  workDir: ./
   cmd:
     - sh deploy/build.sh
 
 deploy:
-  distDir: /usr/local/sugram/open-plat-form	# 要部署到的地址
-  files:				                             # 要传输的文件
+  distDir: /usr/local/sugram/open-plat-form
+  files:
     - ./target/*.jar
     - ./deploy/*
-  run:                # 要执行的脚本, 处入distDir下面
+  run:
     - bash -l ./deploy/run.sh
